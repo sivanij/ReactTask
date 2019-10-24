@@ -1,0 +1,24 @@
+input{
+    display:block;
+    border: 1px solid;
+    margin: 10px;
+    width:50%;
+    height:38px;
+    margin-left:120px;
+}
+.main-container{
+    margin: 0 auto;
+    text-align: center;
+}
+.container-wrapper{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 500px;
+}
+.button-wrpper{
+    color:blue;
+    width:50%;
+    height:38px;
+    border-radius: 30px;
+    margin:10px;
+}
