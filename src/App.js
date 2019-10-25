@@ -3,7 +3,8 @@ import Login from './Login';
 import { 
   withRouter 
 } from 'react-router-dom';
-import List from './List';
+
+require('../node_modules/antd/dist/antd.css')
 
 class App extends React.Component {
   constructor(props) {
@@ -27,11 +28,11 @@ class App extends React.Component {
     const { count } = this.state
     return (
       <div>
-          {count > 0 && <p>You clicked {count} times</p>}
+          {/* {count > 0 && <p>You clicked {count} times</p>}
           {count === 0 && <p>Please click below button</p>}
           <button onClick={this.counter}>
             Click me
-          </button>
+          </button> */}
           <Login 
             history={this.props.history}
           />

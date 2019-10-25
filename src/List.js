@@ -1,4 +1,5 @@
 import React from 'react';
+import Tablelist from './table';
 
 class List extends React.Component{
     constructor(props){
@@ -24,12 +25,7 @@ class List extends React.Component{
     render(){
         return(
             <div>
-                List........
-                <ul>
-                    <li>
-                    {/* <Link to="/list">List</Link> */}
-                    </li>
-                </ul>
+               <Tablelist />
             </div>
         )
     }
