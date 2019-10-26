@@ -11,6 +11,49 @@ const { Column } = Table
                 {
                     title: `Bulk Id`,
                     dataIndex: `indent_number`
+                },
+                {
+                    title: `Req.PD`,
+                    dataIndex: `placement_date`
+                },
+                {
+                    title: `Age`,
+                    dataIndex: `placement_tag`
+                },
+                {
+                    title: `From`,
+                    dataIndex: `source_depository_name`
+                
+                },
+                {
+                    title: `To`,
+                    dataIndex: `destination_depository_name`
+                
+                },
+                {
+                    title: `Transporter`,
+                    dataIndex: `transporter_name`
+                
+                },
+                {
+                    title: `Product`,
+                    dataIndex: `skus`
+                
+                },
+                {
+                    title: `Total Qty`,
+                    dataIndex: `total_quantity`
+                
+                },
+                {
+                    title: `Pend.(RA) Qty`,
+                    dataIndex: `reassigned_quantity`
+                
+                },
+                {
+                    title: `Status`,
+                    dataIndex: `status`
+                
                 }
             ]
         }
